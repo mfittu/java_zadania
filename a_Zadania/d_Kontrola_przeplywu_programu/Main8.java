@@ -1,12 +1,12 @@
-
+﻿
 public class Main8 {
 
 	public static void main(String[] args) {
-	    //definicja zmiennej z ilością rzędów i gwiazdek w wierszu
-	    int n = 5;
+	    
+	    int n = 5;//definicja zmiennej z ilością rzędów i gwiazdek w wierszu
 
-	    //tworzymy pętlę która będzie generowała nam WIERSZE
-	    for (int i = 0; i < n; i++) {
+	   
+	    for (int i = 0; i < n; i++) { //tworzymy pętlę która będzie generowała nam WIERSZE
 	        String row = "";//zmienna która jest zerowana na początku każdej iteracji, przechowująca gwiazdki z wiersza
 
 	        //tworzymy pętlę generującą nam gwiazdki w wierszu
